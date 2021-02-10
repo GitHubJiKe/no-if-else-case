@@ -148,7 +148,7 @@ function handleType2(type: CaseType) {
 2. 代码层面的隔离
 3. 逻辑的高内聚和与调用端的解耦
 4. 减少了改动带来的错误风险（每个业务case 变化，只需要修改 case 对应的 plugin 即可，不会影响其他地方的代码）
-5. 易扩展 添加 case 写心得 plugin 就行了，在需要的地方 use 即可
+5. 易扩展 添加 case 写新的 plugin 就行了，在需要的地方 use 即可
 
 #### 坏处在于：
 
